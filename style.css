@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Overpass;
+}
+
+body{
+    
+    background-color:hsl(216, 12%, 8%);
+}
+
+.rating{
+    width: 400px;
+    margin: auto;
+    height: 405px;
+    border-radius: 30px ;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.content{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.content-col p{  
+    color: hsl(217, 12%, 63%);
+    padding-top: 10px;  
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+
+.star{
+    
+    padding-top: 30px;
+    padding-left: 30px;
+    padding: auto;
+}
+
+.star-col svg{
+   padding: 15px ;
+   
+}
+
+.star-col{
+ 
+   
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: hsl(216, 14%, 22%);
+}
+
+.grid {
+    display: flex;
+    justify-items: center;
+    column-gap: 20px;
+    
+
+    
+}
+
+.submit{
+    display: flex;
+    justify-items: center;
+    padding-top: 30px;
+    
+}
+
+button:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+    
+}
+
+
+button{
+    color: white;
+    padding: 12px 130px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: 0;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition:0.5s;
+}
+
+.circle{
+    
+    padding-top: 25px;
+}
+
+.circle-col p{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.circle-col{
+    
+    cursor: pointer;
+    text-align: center;
+    color: hsl(217, 12%, 63%); 
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: hsl(216, 14%, 22%);
+}
+
+.circle-col:hover {
+    background-color: hsl(25, 97%, 53%) ;
+    transition: 0.5s;
+    color: white;
+}
+
+@media (max-width:400px) {
+    .rating{
+        width: 350px;
+        margin: auto;
+        height: 405px;
+        border-radius: 30px ;
+        background-color: hsl(213, 19%, 18%);
+    }
+
+    .content{
+        padding-right: 30px;
+    }
+
+    .submit{
+        padding-top: 20px;
+    }
+
+    button{
+        padding: 12px 110px;
+        
+    }
+    .circle-col{
+        height: 40px;
+        width: 40px;
+    }
+    .circle-col p{
+        padding: 12px;
+    }
+
+
+}
+
+
+/*------------index 1---------------*/
+
+.phone{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pick{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.pick p{
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(216, 14%, 22%);
+    padding: 7px;
+    text-align: center;
+    border-radius: 20px;
+    height: 17px;
+    width: 180px;
+    font-size: 15px;
+    
+}
+.t-content h1{
+    padding-top: 30px;
+    text-align: center;
+}
+.p-content p{
+    padding: 10px 30px;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+@media (max-width:400px) {
+    .rating{
+        width: 350px;
+        margin: auto;
+        height: 405px;
+        border-radius: 30px ;
+        background-color: hsl(213, 19%, 18%);
+    }
+
+
+
+}
